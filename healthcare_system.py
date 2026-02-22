@@ -34,7 +34,7 @@ class PatientManagement:
     def input_patient(self):
         patient_id = input("Enter patient ID: ")
         name = input("Enter patient name: ")
-        date_of_birth = input("Enter date of birth (YYYY-MM-DD): ")
+        date_of_birth = input("Enter date of birth (DD-MM-YYYY): ")
         gender = input("Enter gender: ")
         contact_info = input("Enter contact info: ")
         return Patient(patient_id, name, date_of_birth, gender, contact_info)
